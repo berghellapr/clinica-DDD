@@ -41,5 +41,16 @@ namespace DOMINIO.Entidades
         {
             return this.email.Valor();
         }
+        public void cambiarNombre(String nuevoNombre)
+        {
+            this.nombre = new Nombre(nuevoNombre);
+        }
+
+        public String presentacion()
+        {
+            return "Mi nombre es " + this.nombre.Valor() +
+                   "Mi apellido es " + this.apellido.Valor() +
+                   "Mi Email es " + this.email.Valor();
+        }
     }
 }
