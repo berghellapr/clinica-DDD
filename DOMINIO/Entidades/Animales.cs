@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace DOMINIO.Entidades
 {
-    internal class Animales
+    public class Animales
     {
+
     }
 }
