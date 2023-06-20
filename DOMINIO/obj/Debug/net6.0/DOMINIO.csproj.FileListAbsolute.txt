@@ -1,0 +1,12 @@
+C:\Users\Alexis\Desktop\ClinicaVeterinaria\DOMINIO\bin\Debug\net6.0\DOMINIO.deps.json
+C:\Users\Alexis\Desktop\ClinicaVeterinaria\DOMINIO\bin\Debug\net6.0\DOMINIO.dll
+C:\Users\Alexis\Desktop\ClinicaVeterinaria\DOMINIO\bin\Debug\net6.0\DOMINIO.pdb
+C:\Users\Alexis\Desktop\ClinicaVeterinaria\DOMINIO\obj\Debug\net6.0\DOMINIO.csproj.AssemblyReference.cache
+C:\Users\Alexis\Desktop\ClinicaVeterinaria\DOMINIO\obj\Debug\net6.0\DOMINIO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alexis\Desktop\ClinicaVeterinaria\DOMINIO\obj\Debug\net6.0\DOMINIO.AssemblyInfoInputs.cache
+C:\Users\Alexis\Desktop\ClinicaVeterinaria\DOMINIO\obj\Debug\net6.0\DOMINIO.AssemblyInfo.cs
+C:\Users\Alexis\Desktop\ClinicaVeterinaria\DOMINIO\obj\Debug\net6.0\DOMINIO.csproj.CoreCompileInputs.cache
+C:\Users\Alexis\Desktop\ClinicaVeterinaria\DOMINIO\obj\Debug\net6.0\DOMINIO.dll
+C:\Users\Alexis\Desktop\ClinicaVeterinaria\DOMINIO\obj\Debug\net6.0\refint\DOMINIO.dll
+C:\Users\Alexis\Desktop\ClinicaVeterinaria\DOMINIO\obj\Debug\net6.0\DOMINIO.pdb
+C:\Users\Alexis\Desktop\ClinicaVeterinaria\DOMINIO\obj\Debug\net6.0\ref\DOMINIO.dll

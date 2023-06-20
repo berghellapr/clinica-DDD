@@ -1,11 +1,68 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net6.0": {
+      "APLICACION/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "DOMINIO": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/APLICACION.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/APLICACION.dll": {}
+        }
+      },
+      "DOMINIO/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/DOMINIO.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DOMINIO.dll": {}
+        }
+      },
+      "INFRAESTRUCTURA/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "DOMINIO": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/INFRAESTRUCTURA.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/INFRAESTRUCTURA.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "APLICACION/1.0.0": {
+      "type": "project",
+      "path": "../APLICACION/APLICACION.csproj",
+      "msbuildProject": "../APLICACION/APLICACION.csproj"
+    },
+    "DOMINIO/1.0.0": {
+      "type": "project",
+      "path": "../DOMINIO/DOMINIO.csproj",
+      "msbuildProject": "../DOMINIO/DOMINIO.csproj"
+    },
+    "INFRAESTRUCTURA/1.0.0": {
+      "type": "project",
+      "path": "../INFRAESTRUCTURA/INFRAESTRUCTURA.csproj",
+      "msbuildProject": "../INFRAESTRUCTURA/INFRAESTRUCTURA.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net6.0": [
+      "APLICACION >= 1.0.0",
+      "DOMINIO >= 1.0.0",
+      "INFRAESTRUCTURA >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\Alexis\\.nuget\\packages\\": {}
@@ -33,7 +90,17 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Alexis\\Desktop\\ClinicaVeterinaria\\APLICACION\\APLICACION.csproj": {
+              "projectPath": "C:\\Users\\Alexis\\Desktop\\ClinicaVeterinaria\\APLICACION\\APLICACION.csproj"
+            },
+            "C:\\Users\\Alexis\\Desktop\\ClinicaVeterinaria\\DOMINIO\\DOMINIO.csproj": {
+              "projectPath": "C:\\Users\\Alexis\\Desktop\\ClinicaVeterinaria\\DOMINIO\\DOMINIO.csproj"
+            },
+            "C:\\Users\\Alexis\\Desktop\\ClinicaVeterinaria\\INFRAESTRUCTURA\\INFRAESTRUCTURA.csproj": {
+              "projectPath": "C:\\Users\\Alexis\\Desktop\\ClinicaVeterinaria\\INFRAESTRUCTURA\\INFRAESTRUCTURA.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

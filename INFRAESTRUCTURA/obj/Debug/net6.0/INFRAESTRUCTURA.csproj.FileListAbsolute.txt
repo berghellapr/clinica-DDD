@@ -1,0 +1,15 @@
+C:\Users\Alexis\Desktop\ClinicaVeterinaria\INFRAESTRUCTURA\bin\Debug\net6.0\INFRAESTRUCTURA.deps.json
+C:\Users\Alexis\Desktop\ClinicaVeterinaria\INFRAESTRUCTURA\bin\Debug\net6.0\INFRAESTRUCTURA.dll
+C:\Users\Alexis\Desktop\ClinicaVeterinaria\INFRAESTRUCTURA\bin\Debug\net6.0\INFRAESTRUCTURA.pdb
+C:\Users\Alexis\Desktop\ClinicaVeterinaria\INFRAESTRUCTURA\bin\Debug\net6.0\DOMINIO.dll
+C:\Users\Alexis\Desktop\ClinicaVeterinaria\INFRAESTRUCTURA\bin\Debug\net6.0\DOMINIO.pdb
+C:\Users\Alexis\Desktop\ClinicaVeterinaria\INFRAESTRUCTURA\obj\Debug\net6.0\INFRAESTRUCTURA.csproj.AssemblyReference.cache
+C:\Users\Alexis\Desktop\ClinicaVeterinaria\INFRAESTRUCTURA\obj\Debug\net6.0\INFRAESTRUCTURA.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alexis\Desktop\ClinicaVeterinaria\INFRAESTRUCTURA\obj\Debug\net6.0\INFRAESTRUCTURA.AssemblyInfoInputs.cache
+C:\Users\Alexis\Desktop\ClinicaVeterinaria\INFRAESTRUCTURA\obj\Debug\net6.0\INFRAESTRUCTURA.AssemblyInfo.cs
+C:\Users\Alexis\Desktop\ClinicaVeterinaria\INFRAESTRUCTURA\obj\Debug\net6.0\INFRAESTRUCTURA.csproj.CoreCompileInputs.cache
+C:\Users\Alexis\Desktop\ClinicaVeterinaria\INFRAESTRUCTURA\obj\Debug\net6.0\INFRAESTRUCTURA.csproj.CopyComplete
+C:\Users\Alexis\Desktop\ClinicaVeterinaria\INFRAESTRUCTURA\obj\Debug\net6.0\INFRAESTRUCTURA.dll
+C:\Users\Alexis\Desktop\ClinicaVeterinaria\INFRAESTRUCTURA\obj\Debug\net6.0\refint\INFRAESTRUCTURA.dll
+C:\Users\Alexis\Desktop\ClinicaVeterinaria\INFRAESTRUCTURA\obj\Debug\net6.0\INFRAESTRUCTURA.pdb
+C:\Users\Alexis\Desktop\ClinicaVeterinaria\INFRAESTRUCTURA\obj\Debug\net6.0\ref\INFRAESTRUCTURA.dll
