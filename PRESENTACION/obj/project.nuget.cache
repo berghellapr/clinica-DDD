@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "TwPmJNQTOB12yBcZocGXTWbO8TssuGNCHnc2cFhQlnMrKKz/Dk+J6h/LiMRLgkJ1I/uVQ4a0ZmbEI2MSP0TNXQ==",
+  "dgSpecHash": "VP5+GSzeZ5kgX+pMnJA03EewzY5iB+4I5y9yKE7Zphv0Lbl2j2l7ENkGyyfmIeIL9SZUKHSAEdwdDatTrKNP0Q==",
   "success": true,
   "projectFilePath": "C:\\Users\\Alexis\\Desktop\\ClinicaVeterinaria\\PRESENTACION\\PRESENTACION.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Alexis\\.nuget\\packages\\autofac\\7.0.1\\autofac.7.0.1.nupkg.sha512",
+    "C:\\Users\\Alexis\\.nuget\\packages\\system.diagnostics.diagnosticsource\\4.7.1\\system.diagnostics.diagnosticsource.4.7.1.nupkg.sha512"
+  ],
   "logs": []
 }

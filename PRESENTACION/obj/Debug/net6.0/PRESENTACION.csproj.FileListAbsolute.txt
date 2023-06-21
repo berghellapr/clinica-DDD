@@ -20,3 +20,4 @@ C:\Users\Alexis\Desktop\ClinicaVeterinaria\PRESENTACION\obj\Debug\net6.0\refint\
 C:\Users\Alexis\Desktop\ClinicaVeterinaria\PRESENTACION\obj\Debug\net6.0\PRESENTACION.pdb
 C:\Users\Alexis\Desktop\ClinicaVeterinaria\PRESENTACION\obj\Debug\net6.0\PRESENTACION.genruntimeconfig.cache
 C:\Users\Alexis\Desktop\ClinicaVeterinaria\PRESENTACION\obj\Debug\net6.0\ref\PRESENTACION.dll
+C:\Users\Alexis\Desktop\ClinicaVeterinaria\PRESENTACION\bin\Debug\net6.0\Autofac.dll

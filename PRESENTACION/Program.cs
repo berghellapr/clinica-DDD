@@ -1,7 +1,10 @@
 ﻿
 using APLICACION;
 using APLICACION.DTO;
-using INFRAESTRUCTURA;
+using Autofac;
+using PRESENTACION.IoC_Container;
+
+IContainer container = ContainerMemory.getContainer();
 
 ClienteDTO Alexis = new ClienteDTO(
     Guid.NewGuid(),
@@ -20,24 +23,29 @@ ClienteDTO Paula = new ClienteDTO(
     "paula@berghella.com"
     );
 
-ClienteRepositorioEnMemoria clienteRepo = new ClienteRepositorioEnMemoria();
-
-CrearCliente creadorDeClientes = new CrearCliente(
-        clienteRepo
-    );
-
+CrearCliente creadorDeClientes = container.Resolve<CrearCliente>();
 creadorDeClientes.ejecutar(Alexis);
 creadorDeClientes.ejecutar(Luis);
 creadorDeClientes.ejecutar(Paula);
+ObtenerUsuarios obtenedorDeUsuarios = container.Resolve<ObtenerUsuarios>();
 
-
+/*
+ * ClienteRepositorioEnMemoria clienteRepo = new ClienteRepositorioEnMemoria();
+CrearCliente creadorDeClientes = new CrearCliente(
+        clienteRepo
+    );
+creadorDeClientes.ejecutar(Alexis);
+creadorDeClientes.ejecutar(Luis);
+creadorDeClientes.ejecutar(Paula);
 ObtenerUsuarios obtenedorDeUsuarios = new ObtenerUsuarios(
         clienteRepo
     );
 
 List<ClienteDTO> todosLosUsuarios = obtenedorDeUsuarios.ejecutar();
+*/
+List<ClienteDTO> todosLosUsuarios = obtenedorDeUsuarios.ejecutar();
 
-foreach(ClienteDTO cliente in todosLosUsuarios)
+foreach (ClienteDTO cliente in todosLosUsuarios)
 {
     Console.WriteLine(cliente.presentacion());
 }
