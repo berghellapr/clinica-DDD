@@ -1,0 +1,12 @@
+C:\Users\Alexis\Desktop\ClinicaVeterinaria\PRESENTACION-WINFORM\bin\Debug\PRESENTACION-WINFORM.exe.config
+C:\Users\Alexis\Desktop\ClinicaVeterinaria\PRESENTACION-WINFORM\bin\Debug\PRESENTACION-WINFORM.exe
+C:\Users\Alexis\Desktop\ClinicaVeterinaria\PRESENTACION-WINFORM\bin\Debug\PRESENTACION-WINFORM.pdb
+C:\Users\Alexis\Desktop\ClinicaVeterinaria\PRESENTACION-WINFORM\obj\Debug\PRESENTACION-WINFORM.csproj.AssemblyReference.cache
+C:\Users\Alexis\Desktop\ClinicaVeterinaria\PRESENTACION-WINFORM\obj\Debug\PRESENTACION-WINFORM.csproj.SuggestedBindingRedirects.cache
+C:\Users\Alexis\Desktop\ClinicaVeterinaria\PRESENTACION-WINFORM\obj\Debug\PRESENTACION_WINFORM.Form1.resources
+C:\Users\Alexis\Desktop\ClinicaVeterinaria\PRESENTACION-WINFORM\obj\Debug\PRESENTACION_WINFORM.Properties.Resources.resources
+C:\Users\Alexis\Desktop\ClinicaVeterinaria\PRESENTACION-WINFORM\obj\Debug\PRESENTACION-WINFORM.csproj.GenerateResource.cache
+C:\Users\Alexis\Desktop\ClinicaVeterinaria\PRESENTACION-WINFORM\obj\Debug\PRESENTACION-WINFORM.csproj.CoreCompileInputs.cache
+C:\Users\Alexis\Desktop\ClinicaVeterinaria\PRESENTACION-WINFORM\obj\Debug\PRESENTACION-WINFORM.exe
+C:\Users\Alexis\Desktop\ClinicaVeterinaria\PRESENTACION-WINFORM\obj\Debug\PRESENTACION-WINFORM.pdb
+C:\Users\Alexis\Desktop\ClinicaVeterinaria\PRESENTACION-WINFORM\obj\Debug\PRESENTACION_WINFORM.SQLForm.resources
