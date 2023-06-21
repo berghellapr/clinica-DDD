@@ -4,7 +4,8 @@ using APLICACION.DTO;
 using Autofac;
 using PRESENTACION.IoC_Container;
 
-IContainer container = ContainerMemory.getContainer();
+//IContainer container = ContainerMemory.getContainer();
+IContainer container = ContainerSQL.getContainer();
 
 ClienteDTO Alexis = new ClienteDTO(
     Guid.NewGuid(),
@@ -43,6 +44,7 @@ ObtenerUsuarios obtenedorDeUsuarios = new ObtenerUsuarios(
 
 List<ClienteDTO> todosLosUsuarios = obtenedorDeUsuarios.ejecutar();
 */
+
 List<ClienteDTO> todosLosUsuarios = obtenedorDeUsuarios.ejecutar();
 
 foreach (ClienteDTO cliente in todosLosUsuarios)

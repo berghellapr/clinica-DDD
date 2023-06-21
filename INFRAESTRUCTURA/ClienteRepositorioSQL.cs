@@ -11,7 +11,7 @@ namespace INFRAESTRUCTURA
 {
     public class ClienteRepositorioSQL : ClienteRepositorio
     {
-        String connectionString = "";
+        String connectionString = "SERVER=DESKTOP-DQTGS54\\SQLEXPRESS;Initial Catalog=ClinicaVeterinaria;Integrated Security=True; Encrypt=False";
         public void EliminarCliente(Guid idCliente)
         {
             throw new NotImplementedException();
@@ -22,7 +22,7 @@ namespace INFRAESTRUCTURA
             using(SqlConnection conexion = new SqlConnection(this.connectionString))
             {
                 conexion.Open();
-                using (SqlCommand comando = new SqlCommand("INSERT INTO usuarios (id, nombre, apellido, email) VALUES (@id, @nombre, @apellido, @email)", conexion))
+                using (SqlCommand comando = new SqlCommand("INSERT INTO Clientes (id, nombre, apellido, email) VALUES (@id, @nombre, @apellido, @email)", conexion))
                 {
                     comando.Parameters.Add("@id", System.Data.SqlDbType.UniqueIdentifier).Value = cliente.Id();
                     comando.Parameters.Add("@nombre", System.Data.SqlDbType.VarChar).Value = cliente.Nombre();
