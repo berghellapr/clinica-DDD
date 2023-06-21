@@ -4,8 +4,9 @@ using APLICACION.DTO;
 using Autofac;
 using PRESENTACION.IoC_Container;
 
-//IContainer container = ContainerMemory.getContainer();
-IContainer container = ContainerSQL.getContainer();
+//IContainer container = ContainerMemory.getContainer(); CONEXION A MEMORIA
+//IContainer container = ContainerSQL.getContainer(); CONEXION A SQL SERVER
+IContainer container = ContainerMongoDB.getContainer();
 
 ClienteDTO Alexis = new ClienteDTO(
     Guid.NewGuid(),
@@ -30,7 +31,7 @@ creadorDeClientes.ejecutar(Luis);
 creadorDeClientes.ejecutar(Paula);
 ObtenerUsuarios obtenedorDeUsuarios = container.Resolve<ObtenerUsuarios>();
 
-/*
+/* Conexion a memoria
  * ClienteRepositorioEnMemoria clienteRepo = new ClienteRepositorioEnMemoria();
 CrearCliente creadorDeClientes = new CrearCliente(
         clienteRepo
