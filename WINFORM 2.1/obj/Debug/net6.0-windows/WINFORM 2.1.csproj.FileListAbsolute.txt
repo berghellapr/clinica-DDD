@@ -1,0 +1,65 @@
+C:\Users\Alexis\Desktop\ClinicaVeterinaria\WINFORM 2.1\bin\Debug\net6.0-windows\WINFORM 2.1.exe
+C:\Users\Alexis\Desktop\ClinicaVeterinaria\WINFORM 2.1\bin\Debug\net6.0-windows\WINFORM 2.1.deps.json
+C:\Users\Alexis\Desktop\ClinicaVeterinaria\WINFORM 2.1\bin\Debug\net6.0-windows\WINFORM 2.1.runtimeconfig.json
+C:\Users\Alexis\Desktop\ClinicaVeterinaria\WINFORM 2.1\bin\Debug\net6.0-windows\WINFORM 2.1.dll
+C:\Users\Alexis\Desktop\ClinicaVeterinaria\WINFORM 2.1\bin\Debug\net6.0-windows\WINFORM 2.1.pdb
+C:\Users\Alexis\Desktop\ClinicaVeterinaria\WINFORM 2.1\bin\Debug\net6.0-windows\Autofac.dll
+C:\Users\Alexis\Desktop\ClinicaVeterinaria\WINFORM 2.1\bin\Debug\net6.0-windows\AWSSDK.Core.dll
+C:\Users\Alexis\Desktop\ClinicaVeterinaria\WINFORM 2.1\bin\Debug\net6.0-windows\AWSSDK.SecurityToken.dll
+C:\Users\Alexis\Desktop\ClinicaVeterinaria\WINFORM 2.1\bin\Debug\net6.0-windows\Azure.Core.dll
+C:\Users\Alexis\Desktop\ClinicaVeterinaria\WINFORM 2.1\bin\Debug\net6.0-windows\Azure.Identity.dll
+C:\Users\Alexis\Desktop\ClinicaVeterinaria\WINFORM 2.1\bin\Debug\net6.0-windows\DnsClient.dll
+C:\Users\Alexis\Desktop\ClinicaVeterinaria\WINFORM 2.1\bin\Debug\net6.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Alexis\Desktop\ClinicaVeterinaria\WINFORM 2.1\bin\Debug\net6.0-windows\Microsoft.Data.SqlClient.dll
+C:\Users\Alexis\Desktop\ClinicaVeterinaria\WINFORM 2.1\bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Alexis\Desktop\ClinicaVeterinaria\WINFORM 2.1\bin\Debug\net6.0-windows\Microsoft.Identity.Client.dll
+C:\Users\Alexis\Desktop\ClinicaVeterinaria\WINFORM 2.1\bin\Debug\net6.0-windows\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\Alexis\Desktop\ClinicaVeterinaria\WINFORM 2.1\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Alexis\Desktop\ClinicaVeterinaria\WINFORM 2.1\bin\Debug\net6.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Alexis\Desktop\ClinicaVeterinaria\WINFORM 2.1\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Logging.dll
+C:\Users\Alexis\Desktop\ClinicaVeterinaria\WINFORM 2.1\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Alexis\Desktop\ClinicaVeterinaria\WINFORM 2.1\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Alexis\Desktop\ClinicaVeterinaria\WINFORM 2.1\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Alexis\Desktop\ClinicaVeterinaria\WINFORM 2.1\bin\Debug\net6.0-windows\Microsoft.SqlServer.Server.dll
+C:\Users\Alexis\Desktop\ClinicaVeterinaria\WINFORM 2.1\bin\Debug\net6.0-windows\MongoDB.Bson.dll
+C:\Users\Alexis\Desktop\ClinicaVeterinaria\WINFORM 2.1\bin\Debug\net6.0-windows\MongoDB.Driver.dll
+C:\Users\Alexis\Desktop\ClinicaVeterinaria\WINFORM 2.1\bin\Debug\net6.0-windows\MongoDB.Driver.Core.dll
+C:\Users\Alexis\Desktop\ClinicaVeterinaria\WINFORM 2.1\bin\Debug\net6.0-windows\MongoDB.Libmongocrypt.dll
+C:\Users\Alexis\Desktop\ClinicaVeterinaria\WINFORM 2.1\bin\Debug\net6.0-windows\SharpCompress.dll
+C:\Users\Alexis\Desktop\ClinicaVeterinaria\WINFORM 2.1\bin\Debug\net6.0-windows\Snappier.dll
+C:\Users\Alexis\Desktop\ClinicaVeterinaria\WINFORM 2.1\bin\Debug\net6.0-windows\System.Configuration.ConfigurationManager.dll
+C:\Users\Alexis\Desktop\ClinicaVeterinaria\WINFORM 2.1\bin\Debug\net6.0-windows\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Alexis\Desktop\ClinicaVeterinaria\WINFORM 2.1\bin\Debug\net6.0-windows\System.Memory.Data.dll
+C:\Users\Alexis\Desktop\ClinicaVeterinaria\WINFORM 2.1\bin\Debug\net6.0-windows\System.Runtime.Caching.dll
+C:\Users\Alexis\Desktop\ClinicaVeterinaria\WINFORM 2.1\bin\Debug\net6.0-windows\ZstdSharp.dll
+C:\Users\Alexis\Desktop\ClinicaVeterinaria\WINFORM 2.1\bin\Debug\net6.0-windows\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\Alexis\Desktop\ClinicaVeterinaria\WINFORM 2.1\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\Alexis\Desktop\ClinicaVeterinaria\WINFORM 2.1\bin\Debug\net6.0-windows\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Alexis\Desktop\ClinicaVeterinaria\WINFORM 2.1\bin\Debug\net6.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Alexis\Desktop\ClinicaVeterinaria\WINFORM 2.1\bin\Debug\net6.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Alexis\Desktop\ClinicaVeterinaria\WINFORM 2.1\bin\Debug\net6.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Alexis\Desktop\ClinicaVeterinaria\WINFORM 2.1\bin\Debug\net6.0-windows\runtimes\linux\native\libmongocrypt.so
+C:\Users\Alexis\Desktop\ClinicaVeterinaria\WINFORM 2.1\bin\Debug\net6.0-windows\runtimes\osx\native\libmongocrypt.dylib
+C:\Users\Alexis\Desktop\ClinicaVeterinaria\WINFORM 2.1\bin\Debug\net6.0-windows\runtimes\win\native\mongocrypt.dll
+C:\Users\Alexis\Desktop\ClinicaVeterinaria\WINFORM 2.1\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\Alexis\Desktop\ClinicaVeterinaria\WINFORM 2.1\bin\Debug\net6.0-windows\APLICACION.dll
+C:\Users\Alexis\Desktop\ClinicaVeterinaria\WINFORM 2.1\bin\Debug\net6.0-windows\DOMINIO.dll
+C:\Users\Alexis\Desktop\ClinicaVeterinaria\WINFORM 2.1\bin\Debug\net6.0-windows\INFRAESTRUCTURA.dll
+C:\Users\Alexis\Desktop\ClinicaVeterinaria\WINFORM 2.1\bin\Debug\net6.0-windows\APLICACION.pdb
+C:\Users\Alexis\Desktop\ClinicaVeterinaria\WINFORM 2.1\bin\Debug\net6.0-windows\DOMINIO.pdb
+C:\Users\Alexis\Desktop\ClinicaVeterinaria\WINFORM 2.1\bin\Debug\net6.0-windows\INFRAESTRUCTURA.pdb
+C:\Users\Alexis\Desktop\ClinicaVeterinaria\WINFORM 2.1\obj\Debug\net6.0-windows\WINFORM 2.1.csproj.AssemblyReference.cache
+C:\Users\Alexis\Desktop\ClinicaVeterinaria\WINFORM 2.1\obj\Debug\net6.0-windows\WINFORM_2._1.Form1.resources
+C:\Users\Alexis\Desktop\ClinicaVeterinaria\WINFORM 2.1\obj\Debug\net6.0-windows\WINFORM_2._1.CrearClienteSQL.resources
+C:\Users\Alexis\Desktop\ClinicaVeterinaria\WINFORM 2.1\obj\Debug\net6.0-windows\WINFORM_2._1.SQLForm.resources
+C:\Users\Alexis\Desktop\ClinicaVeterinaria\WINFORM 2.1\obj\Debug\net6.0-windows\WINFORM 2.1.csproj.GenerateResource.cache
+C:\Users\Alexis\Desktop\ClinicaVeterinaria\WINFORM 2.1\obj\Debug\net6.0-windows\WINFORM 2.1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alexis\Desktop\ClinicaVeterinaria\WINFORM 2.1\obj\Debug\net6.0-windows\WINFORM 2.1.AssemblyInfoInputs.cache
+C:\Users\Alexis\Desktop\ClinicaVeterinaria\WINFORM 2.1\obj\Debug\net6.0-windows\WINFORM 2.1.AssemblyInfo.cs
+C:\Users\Alexis\Desktop\ClinicaVeterinaria\WINFORM 2.1\obj\Debug\net6.0-windows\WINFORM 2.1.csproj.CoreCompileInputs.cache
+C:\Users\Alexis\Desktop\ClinicaVeterinaria\WINFORM 2.1\obj\Debug\net6.0-windows\WINFORM 2.1.csproj.CopyComplete
+C:\Users\Alexis\Desktop\ClinicaVeterinaria\WINFORM 2.1\obj\Debug\net6.0-windows\WINFORM 2.1.dll
+C:\Users\Alexis\Desktop\ClinicaVeterinaria\WINFORM 2.1\obj\Debug\net6.0-windows\refint\WINFORM 2.1.dll
+C:\Users\Alexis\Desktop\ClinicaVeterinaria\WINFORM 2.1\obj\Debug\net6.0-windows\WINFORM 2.1.pdb
+C:\Users\Alexis\Desktop\ClinicaVeterinaria\WINFORM 2.1\obj\Debug\net6.0-windows\WINFORM 2.1.genruntimeconfig.cache
+C:\Users\Alexis\Desktop\ClinicaVeterinaria\WINFORM 2.1\obj\Debug\net6.0-windows\ref\WINFORM 2.1.dll
