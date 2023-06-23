@@ -941,43 +941,43 @@
           "lib/net6.0/ZstdSharp.dll": {}
         }
       },
-      "APLICACION/1.0.0": {
+      "01-APLICACION/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "DOMINIO": "1.0.0"
+          "02-DOMINIO": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/APLICACION.dll": {}
+          "bin/placeholder/01-APLICACION.dll": {}
         },
         "runtime": {
-          "bin/placeholder/APLICACION.dll": {}
+          "bin/placeholder/01-APLICACION.dll": {}
         }
       },
-      "DOMINIO/1.0.0": {
+      "02-DOMINIO/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "compile": {
-          "bin/placeholder/DOMINIO.dll": {}
+          "bin/placeholder/02-DOMINIO.dll": {}
         },
         "runtime": {
-          "bin/placeholder/DOMINIO.dll": {}
+          "bin/placeholder/02-DOMINIO.dll": {}
         }
       },
-      "INFRAESTRUCTURA/1.0.0": {
+      "03-INFRAESTRUCTURA/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "DOMINIO": "1.0.0",
+          "02-DOMINIO": "1.0.0",
           "Microsoft.Data.SqlClient": "5.1.1",
           "MongoDB.Driver": "2.19.2",
           "MongoDB.Driver.Core": "2.19.2"
         },
         "compile": {
-          "bin/placeholder/INFRAESTRUCTURA.dll": {}
+          "bin/placeholder/03-INFRAESTRUCTURA.dll": {}
         },
         "runtime": {
-          "bin/placeholder/INFRAESTRUCTURA.dll": {}
+          "bin/placeholder/03-INFRAESTRUCTURA.dll": {}
         }
       }
     }
@@ -2591,44 +2591,44 @@
         "zstdsharp.port.nuspec"
       ]
     },
-    "APLICACION/1.0.0": {
+    "01-APLICACION/1.0.0": {
       "type": "project",
-      "path": "../APLICACION/APLICACION.csproj",
-      "msbuildProject": "../APLICACION/APLICACION.csproj"
+      "path": "../APLICACION/01-APLICACION.csproj",
+      "msbuildProject": "../APLICACION/01-APLICACION.csproj"
     },
-    "DOMINIO/1.0.0": {
+    "02-DOMINIO/1.0.0": {
       "type": "project",
-      "path": "../DOMINIO/DOMINIO.csproj",
-      "msbuildProject": "../DOMINIO/DOMINIO.csproj"
+      "path": "../DOMINIO/02-DOMINIO.csproj",
+      "msbuildProject": "../DOMINIO/02-DOMINIO.csproj"
     },
-    "INFRAESTRUCTURA/1.0.0": {
+    "03-INFRAESTRUCTURA/1.0.0": {
       "type": "project",
-      "path": "../INFRAESTRUCTURA/INFRAESTRUCTURA.csproj",
-      "msbuildProject": "../INFRAESTRUCTURA/INFRAESTRUCTURA.csproj"
+      "path": "../INFRAESTRUCTURA/03-INFRAESTRUCTURA.csproj",
+      "msbuildProject": "../INFRAESTRUCTURA/03-INFRAESTRUCTURA.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "APLICACION >= 1.0.0",
-      "Autofac >= 7.0.1",
-      "DOMINIO >= 1.0.0",
-      "INFRAESTRUCTURA >= 1.0.0"
+      "01-APLICACION >= 1.0.0",
+      "02-DOMINIO >= 1.0.0",
+      "03-INFRAESTRUCTURA >= 1.0.0",
+      "Autofac >= 7.0.1"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Alexis\\.nuget\\packages\\": {}
+    "C:\\Users\\Zenkaii\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Alexis\\Desktop\\ClinicaVeterinaria\\PRESENTACION\\PRESENTACION.csproj",
-      "projectName": "PRESENTACION",
-      "projectPath": "C:\\Users\\Alexis\\Desktop\\ClinicaVeterinaria\\PRESENTACION\\PRESENTACION.csproj",
-      "packagesPath": "C:\\Users\\Alexis\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Alexis\\Desktop\\ClinicaVeterinaria\\PRESENTACION\\obj\\",
+      "projectUniqueName": "C:\\Users\\Zenkaii\\Desktop\\clinica-DDD\\PRESENTACION\\00-PRESENTACION.csproj",
+      "projectName": "00-PRESENTACION",
+      "projectPath": "C:\\Users\\Zenkaii\\Desktop\\clinica-DDD\\PRESENTACION\\00-PRESENTACION.csproj",
+      "packagesPath": "C:\\Users\\Zenkaii\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Zenkaii\\Desktop\\clinica-DDD\\PRESENTACION\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Alexis\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Zenkaii\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -2642,14 +2642,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Alexis\\Desktop\\ClinicaVeterinaria\\APLICACION\\APLICACION.csproj": {
-              "projectPath": "C:\\Users\\Alexis\\Desktop\\ClinicaVeterinaria\\APLICACION\\APLICACION.csproj"
+            "C:\\Users\\Zenkaii\\Desktop\\clinica-DDD\\APLICACION\\01-APLICACION.csproj": {
+              "projectPath": "C:\\Users\\Zenkaii\\Desktop\\clinica-DDD\\APLICACION\\01-APLICACION.csproj"
             },
-            "C:\\Users\\Alexis\\Desktop\\ClinicaVeterinaria\\DOMINIO\\DOMINIO.csproj": {
-              "projectPath": "C:\\Users\\Alexis\\Desktop\\ClinicaVeterinaria\\DOMINIO\\DOMINIO.csproj"
+            "C:\\Users\\Zenkaii\\Desktop\\clinica-DDD\\DOMINIO\\02-DOMINIO.csproj": {
+              "projectPath": "C:\\Users\\Zenkaii\\Desktop\\clinica-DDD\\DOMINIO\\02-DOMINIO.csproj"
             },
-            "C:\\Users\\Alexis\\Desktop\\ClinicaVeterinaria\\INFRAESTRUCTURA\\INFRAESTRUCTURA.csproj": {
-              "projectPath": "C:\\Users\\Alexis\\Desktop\\ClinicaVeterinaria\\INFRAESTRUCTURA\\INFRAESTRUCTURA.csproj"
+            "C:\\Users\\Zenkaii\\Desktop\\clinica-DDD\\INFRAESTRUCTURA\\03-INFRAESTRUCTURA.csproj": {
+              "projectPath": "C:\\Users\\Zenkaii\\Desktop\\clinica-DDD\\INFRAESTRUCTURA\\03-INFRAESTRUCTURA.csproj"
             }
           }
         }

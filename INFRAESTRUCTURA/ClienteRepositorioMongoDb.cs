@@ -3,12 +3,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using DOMINIO.Entidades;
-using DOMINIO.Repositorio;
-using INFRAESTRUCTURA.SchemasMongo;
+using _02_DOMINIO.Entidad;
+using _02_DOMINIO.Repositorio;
+using _03_INFRAESTRUCTURA.SchemasMongo;
 using MongoDB.Bson;
 using MongoDB.Driver;
-namespace INFRAESTRUCTURA
+
+namespace _03_INFRAESTRUCTURA
 {
     public class ClienteRepositorioMongoDb : ClienteRepositorio
     {
@@ -29,13 +30,13 @@ namespace INFRAESTRUCTURA
             throw new NotImplementedException();
         }
 
-        public void grabar(Cliente cliente)
+        public void Grabar(Cliente cliente)
         {
             IMongoCollection<ClienteSchema> clienteMongoDB = Conexion();
             clienteMongoDB.InsertOne(new ClienteSchema{ Id = cliente.Id(), Nombre = cliente.Nombre(), Apellido = cliente.Apellido(), Email = cliente.Email()});
         }
 
-        public List<Cliente> obtenerTodos()
+        public List<Cliente> ObtenerTodos()
         {
             List<Cliente> clientes = new List<Cliente>();
             IMongoCollection<ClienteSchema> clienteMongoDB = Conexion();

@@ -1,26 +1,26 @@
-﻿using APLICACION.DTO;
-using DOMINIO.Entidades;
-using DOMINIO.Repositorio;
+﻿using _01_APLICACION.DTO;
+using _02_DOMINIO.Entidad;
+using _02_DOMINIO.Repositorio;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace APLICACION
+namespace _01_APLICACION
 {
-    public class ObtenerUsuarios
+    public class ObtenerClientes
     {
         private ClienteRepositorio repositorio;
 
-        public ObtenerUsuarios(ClienteRepositorio repositorio)
+        public ObtenerClientes(ClienteRepositorio repositorio)
         {
             this.repositorio = repositorio;
         }
 
-        public List<ClienteDTO> ejecutar()
+        public List<ClienteDTO> Ejecutar()
         {
-            List<Cliente> clientes = this.repositorio.obtenerTodos();
+            List<Cliente> clientes = this.repositorio.ObtenerTodos();
             List<ClienteDTO> clientesDTO = new List<ClienteDTO>();
             foreach (Cliente cliente in clientes)
             {

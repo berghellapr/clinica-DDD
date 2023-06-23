@@ -1,12 +1,12 @@
-﻿using DOMINIO.Entidades;
-using DOMINIO.Repositorio;
+﻿using _02_DOMINIO.Entidad;
+using _02_DOMINIO.Repositorio;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace INFRAESTRUCTURA
+namespace _03_INFRAESTRUCTURA
 {
     public class ClienteRepositorioEnMemoria : ClienteRepositorio
     {
@@ -16,12 +16,12 @@ namespace INFRAESTRUCTURA
         }
 
         private List<Cliente> clientes = new List<Cliente>();
-        public void grabar(Cliente cliente)
+        public void Grabar(Cliente cliente)
         {
             this.clientes.Add(cliente);
         }
 
-        public List<Cliente> obtenerTodos()
+        public List<Cliente> ObtenerTodos()
         {
             return this.clientes;
         }

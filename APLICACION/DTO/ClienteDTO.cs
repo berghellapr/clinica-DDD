@@ -4,14 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace APLICACION.DTO
+namespace _01_APLICACION.DTO
 {
     public class ClienteDTO
     {
         private Guid id;
         private String nombre;
         private String apellido;
-        //private int dni;
         private String email;
 
         public ClienteDTO(Guid id, String nombre, String apellido, String email)
@@ -39,11 +38,11 @@ namespace APLICACION.DTO
             return this.email;
         }
 
-        public String presentacion()
+        public String Presentacion()
         {
             return "Mi nombre es  " + this.nombre +
                    " Mi apellido es  " + this.apellido +
-                   " Mi Email es  " + this.email;
+                   " Mi email es  " + this.email;
         }
 
     }

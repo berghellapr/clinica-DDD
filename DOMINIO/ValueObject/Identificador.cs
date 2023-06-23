@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DOMINIO.ValueObject
+namespace _02_DOMINIO.ValueObject
 {
     public class Identificador
     {

@@ -1,5 +1,5 @@
-﻿using DOMINIO.Entidades;
-using DOMINIO.Repositorio;
+﻿using _02_DOMINIO.Entidad;
+using _02_DOMINIO.Repositorio;
 using Microsoft.Data.SqlClient;
 using System;
 using System.Collections.Generic;
@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace INFRAESTRUCTURA
+namespace _03_INFRAESTRUCTURA
 {
     public class ClienteRepositorioSQL : ClienteRepositorio
     {
@@ -17,7 +17,7 @@ namespace INFRAESTRUCTURA
             throw new NotImplementedException();
         }
 
-        public void grabar(Cliente cliente)
+        public void Grabar(Cliente cliente)
         {
             using(SqlConnection conexion = new SqlConnection(this.connectionString))
             {
@@ -33,7 +33,7 @@ namespace INFRAESTRUCTURA
             }
         }
 
-        public List<Cliente> obtenerTodos()
+        public List<Cliente> ObtenerTodos()
         {
                 List<Cliente> clientes = new List<Cliente>();
                 using (SqlConnection conexion = new SqlConnection(this.connectionString))

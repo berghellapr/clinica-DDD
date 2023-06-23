@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DOMINIO.Entidades
+namespace _02_DOMINIO.Entidades
 {
     public class Animales
     {
