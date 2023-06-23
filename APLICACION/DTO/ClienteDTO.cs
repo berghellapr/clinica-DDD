@@ -40,9 +40,9 @@ namespace _01_APLICACION.DTO
 
         public String Presentacion()
         {
-            return "Mi nombre es  " + this.nombre +
-                   " Mi apellido es  " + this.apellido +
-                   " Mi email es  " + this.email;
+            return "Mi nombre es " + this.nombre +
+                   ", mi apellido es " + this.apellido +
+                   " y mi email es " + this.email;
         }
 
     }
