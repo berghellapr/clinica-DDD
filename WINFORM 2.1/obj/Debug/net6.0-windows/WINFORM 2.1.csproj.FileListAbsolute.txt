@@ -107,12 +107,6 @@ C:\Users\Zenkaii\Desktop\clinica-DDD\WINFORM 2.1\bin\Debug\net6.0-windows\runtim
 C:\Users\Zenkaii\Desktop\clinica-DDD\WINFORM 2.1\bin\Debug\net6.0-windows\runtimes\osx\native\libmongocrypt.dylib
 C:\Users\Zenkaii\Desktop\clinica-DDD\WINFORM 2.1\bin\Debug\net6.0-windows\runtimes\win\native\mongocrypt.dll
 C:\Users\Zenkaii\Desktop\clinica-DDD\WINFORM 2.1\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
-C:\Users\Zenkaii\Desktop\clinica-DDD\WINFORM 2.1\bin\Debug\net6.0-windows\APLICACION.dll
-C:\Users\Zenkaii\Desktop\clinica-DDD\WINFORM 2.1\bin\Debug\net6.0-windows\DOMINIO.dll
-C:\Users\Zenkaii\Desktop\clinica-DDD\WINFORM 2.1\bin\Debug\net6.0-windows\INFRAESTRUCTURA.dll
-C:\Users\Zenkaii\Desktop\clinica-DDD\WINFORM 2.1\bin\Debug\net6.0-windows\APLICACION.pdb
-C:\Users\Zenkaii\Desktop\clinica-DDD\WINFORM 2.1\bin\Debug\net6.0-windows\DOMINIO.pdb
-C:\Users\Zenkaii\Desktop\clinica-DDD\WINFORM 2.1\bin\Debug\net6.0-windows\INFRAESTRUCTURA.pdb
 C:\Users\Zenkaii\Desktop\clinica-DDD\WINFORM 2.1\obj\Debug\net6.0-windows\WINFORM 2.1.csproj.AssemblyReference.cache
 C:\Users\Zenkaii\Desktop\clinica-DDD\WINFORM 2.1\obj\Debug\net6.0-windows\WINFORM_2._1.Form1.resources
 C:\Users\Zenkaii\Desktop\clinica-DDD\WINFORM 2.1\obj\Debug\net6.0-windows\WINFORM_2._1.CrearClienteSQL.resources
@@ -128,3 +122,9 @@ C:\Users\Zenkaii\Desktop\clinica-DDD\WINFORM 2.1\obj\Debug\net6.0-windows\refint
 C:\Users\Zenkaii\Desktop\clinica-DDD\WINFORM 2.1\obj\Debug\net6.0-windows\WINFORM 2.1.pdb
 C:\Users\Zenkaii\Desktop\clinica-DDD\WINFORM 2.1\obj\Debug\net6.0-windows\WINFORM 2.1.genruntimeconfig.cache
 C:\Users\Zenkaii\Desktop\clinica-DDD\WINFORM 2.1\obj\Debug\net6.0-windows\ref\WINFORM 2.1.dll
+C:\Users\Zenkaii\Desktop\clinica-DDD\WINFORM 2.1\bin\Debug\net6.0-windows\01-APLICACION.dll
+C:\Users\Zenkaii\Desktop\clinica-DDD\WINFORM 2.1\bin\Debug\net6.0-windows\02-DOMINIO.dll
+C:\Users\Zenkaii\Desktop\clinica-DDD\WINFORM 2.1\bin\Debug\net6.0-windows\03-INFRAESTRUCTURA.dll
+C:\Users\Zenkaii\Desktop\clinica-DDD\WINFORM 2.1\bin\Debug\net6.0-windows\01-APLICACION.pdb
+C:\Users\Zenkaii\Desktop\clinica-DDD\WINFORM 2.1\bin\Debug\net6.0-windows\02-DOMINIO.pdb
+C:\Users\Zenkaii\Desktop\clinica-DDD\WINFORM 2.1\bin\Debug\net6.0-windows\03-INFRAESTRUCTURA.pdb
