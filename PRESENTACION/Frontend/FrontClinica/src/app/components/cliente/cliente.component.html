@@ -1,0 +1,78 @@
+<div class="container mt-5">
+    <div class="row">
+       <div class="col-lg-8 offset-lg-2">
+            <div class="card">
+                <div class="card-body">
+                    <h3 class="titleFont">Clínica Veterinaria</h3>
+                    <h5 class="bodyFont text-center">Bienvenidos a nuestro portal</h5>
+                </div>
+            </div>
+       </div>
+    </div>
+
+    <div class="row mt-4">
+        <div class="col-lg-6">
+            <div class="card">
+                <div class="card body p-4">
+                    <h5 class="titleFont">Registrar nuevo cliente</h5>
+                        <form [formGroup]="form" (ngSubmit)="agregarCliente()">
+                            <div class="input-group mb-3">
+                                <span class="input-group-text">
+                                    <i class="fa-regular fa-user"
+                                        [class.green-icon]="this.form.get('nombre')?.valid"
+                                        [class.red-icon]="this.form.get('nombre')?.invalid && this.form.get('nombre')?.touched"
+                                    ></i>
+                                </span>
+                                <input formControlName="nombre" maxlength="20" type="text" class="form-control" placeholder="Nombre">
+                            </div>
+                            <div class="input-group mb-3">
+                                <span class="input-group-text">
+                                    <i class="fa-regular fa-user"
+                                        [class.green-icon]="this.form.get('apellido')?.valid"
+                                        [class.red-icon]="this.form.get('apellido')?.invalid && this.form.get('apellido')?.touched"
+                                    ></i>
+                                </span>
+                                <input formControlName="apellido" maxlength="20" type="text" class="form-control" placeholder="Apellido">
+                            </div>
+                            <div class="input-group mb-3">
+                                <span class="input-group-text">
+                                    <i class="fa-regular fa-envelope"
+                                        [class.green-icon]="this.form.get('email')?.valid"
+                                        [class.red-icon]="this.form.get('email')?.invalid && this.form.get('email')?.touched"
+                                    ></i>
+                                </span>
+                                <input formControlName="email" type="text" class="form-control" placeholder="Email">
+                            </div>
+                            <div class="d-grid gap-2 col-4 mx-auto">
+                                <button [disabled]="this.form.invalid" type="submit" class="btn btn-success">
+                                    <i class="fa-solid fa-database"></i>  Aceptar
+                                </button>
+                            </div>
+                        </form>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-6">
+            <div class="card">
+                <div class="card body p-4">
+                    <h5 class="titleFont">Listado de clientes</h5>
+                    <table class="table">
+                        <tbody>
+                            <tr *ngFor="let cliente of listClientes; let i = index">
+                                <td>{{cliente.nombre}}</td>
+                                <td>{{cliente.apellido}}</td>
+                                <td>{{cliente.email}}</td>
+                                <td>
+                                    <i class="fa-regular fa-pen-to-square text-info"></i>
+                                </td>
+                                <td>
+                                    <i (click)="eliminarCliente(i)" class="fa-regular fa-trash-can text-danger"></i>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
