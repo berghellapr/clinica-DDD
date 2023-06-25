@@ -17,4 +17,8 @@
     <ProjectReference Include="..\INFRAESTRUCTURA\03-INFRAESTRUCTURA.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Frontend\" />
+  </ItemGroup>
+
 </Project>
