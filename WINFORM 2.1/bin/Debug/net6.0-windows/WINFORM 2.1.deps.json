@@ -8,10 +8,10 @@
     ".NETCoreApp,Version=v6.0": {
       "WINFORM 2.1/1.0.0": {
         "dependencies": {
-          "APLICACION": "1.0.0",
-          "Autofac": "7.0.1",
-          "DOMINIO": "1.0.0",
-          "INFRAESTRUCTURA": "1.0.0"
+          "01-APLICACION": "1.0.0",
+          "02-DOMINIO": "1.0.0",
+          "03-INFRAESTRUCTURA": "1.0.0",
+          "Autofac": "7.0.1"
         },
         "runtime": {
           "WINFORM 2.1.dll": {}
@@ -486,28 +486,28 @@
           }
         }
       },
-      "APLICACION/1.0.0": {
+      "01-APLICACION/1.0.0": {
         "dependencies": {
-          "DOMINIO": "1.0.0"
+          "02-DOMINIO": "1.0.0"
         },
         "runtime": {
-          "APLICACION.dll": {}
+          "01-APLICACION.dll": {}
         }
       },
-      "DOMINIO/1.0.0": {
+      "02-DOMINIO/1.0.0": {
         "runtime": {
-          "DOMINIO.dll": {}
+          "02-DOMINIO.dll": {}
         }
       },
-      "INFRAESTRUCTURA/1.0.0": {
+      "03-INFRAESTRUCTURA/1.0.0": {
         "dependencies": {
-          "DOMINIO": "1.0.0",
+          "02-DOMINIO": "1.0.0",
           "Microsoft.Data.SqlClient": "5.1.1",
           "MongoDB.Driver": "2.19.2",
           "MongoDB.Driver.Core": "2.19.2"
         },
         "runtime": {
-          "INFRAESTRUCTURA.dll": {}
+          "03-INFRAESTRUCTURA.dll": {}
         }
       }
     }
@@ -896,17 +896,17 @@
       "path": "zstdsharp.port/0.6.2",
       "hashPath": "zstdsharp.port.0.6.2.nupkg.sha512"
     },
-    "APLICACION/1.0.0": {
+    "01-APLICACION/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "DOMINIO/1.0.0": {
+    "02-DOMINIO/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "INFRAESTRUCTURA/1.0.0": {
+    "03-INFRAESTRUCTURA/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -14,9 +14,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\APLICACION\APLICACION.csproj" />
-    <ProjectReference Include="..\DOMINIO\DOMINIO.csproj" />
-    <ProjectReference Include="..\INFRAESTRUCTURA\INFRAESTRUCTURA.csproj" />
+    <ProjectReference Include="..\APLICACION\01-APLICACION.csproj" />
+    <ProjectReference Include="..\DOMINIO\02-DOMINIO.csproj" />
+    <ProjectReference Include="..\INFRAESTRUCTURA\03-INFRAESTRUCTURA.csproj" />
   </ItemGroup>
 
 </Project>

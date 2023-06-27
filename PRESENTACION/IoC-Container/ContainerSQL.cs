@@ -1,23 +1,23 @@
-﻿using APLICACION;
+﻿using _01_APLICACION;
 using Autofac;
-using DOMINIO.Repositorio;
-using INFRAESTRUCTURA;
+using _02_DOMINIO.Repositorio;
+using _03_INFRAESTRUCTURA;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PRESENTACION.IoC_Container
+namespace _00_PRESENTACION.IoC_Container
 {
    public class ContainerSQL
     {
-        static public IContainer getContainer()
+        static public IContainer GetContainer()
         {
             ContainerBuilder builder = new ContainerBuilder();
             builder.RegisterType<ClienteRepositorioSQL>().As<ClienteRepositorio>().SingleInstance();
             builder.RegisterType<CrearCliente>();
-            builder.RegisterType<ObtenerUsuarios>();
+            builder.RegisterType<ObtenerClientes>();
             IContainer container = builder.Build();
 
             return container;

@@ -13,3 +13,11 @@ C:\Users\Alexis\Desktop\ClinicaVeterinaria\INFRAESTRUCTURA\obj\Debug\net6.0\INFR
 C:\Users\Alexis\Desktop\ClinicaVeterinaria\INFRAESTRUCTURA\obj\Debug\net6.0\refint\INFRAESTRUCTURA.dll
 C:\Users\Alexis\Desktop\ClinicaVeterinaria\INFRAESTRUCTURA\obj\Debug\net6.0\INFRAESTRUCTURA.pdb
 C:\Users\Alexis\Desktop\ClinicaVeterinaria\INFRAESTRUCTURA\obj\Debug\net6.0\ref\INFRAESTRUCTURA.dll
+C:\Users\Zenkaii\Desktop\clinica-DDD\INFRAESTRUCTURA\obj\Debug\net6.0\INFRAESTRUCTURA.csproj.AssemblyReference.cache
+C:\Users\Zenkaii\Desktop\clinica-DDD\INFRAESTRUCTURA\obj\Debug\net6.0\INFRAESTRUCTURA.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Zenkaii\Desktop\clinica-DDD\INFRAESTRUCTURA\obj\Debug\net6.0\INFRAESTRUCTURA.AssemblyInfoInputs.cache
+C:\Users\Zenkaii\Desktop\clinica-DDD\INFRAESTRUCTURA\obj\Debug\net6.0\INFRAESTRUCTURA.AssemblyInfo.cs
+C:\Users\Zenkaii\Desktop\clinica-DDD\INFRAESTRUCTURA\obj\Debug\net6.0\INFRAESTRUCTURA.csproj.CoreCompileInputs.cache
+C:\Users\Zenkaii\Desktop\clinica-DDD\INFRAESTRUCTURA\obj\Debug\net6.0\INFRAESTRUCTURA.dll
+C:\Users\Zenkaii\Desktop\clinica-DDD\INFRAESTRUCTURA\obj\Debug\net6.0\refint\INFRAESTRUCTURA.dll
+C:\Users\Zenkaii\Desktop\clinica-DDD\INFRAESTRUCTURA\obj\Debug\net6.0\INFRAESTRUCTURA.pdb

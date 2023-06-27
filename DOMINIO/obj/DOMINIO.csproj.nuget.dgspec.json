@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Alexis\\Desktop\\ClinicaVeterinaria\\DOMINIO\\DOMINIO.csproj": {}
+    "C:\\Users\\Zenkaii\\Desktop\\clinica-DDD\\DOMINIO\\DOMINIO.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Alexis\\Desktop\\ClinicaVeterinaria\\DOMINIO\\DOMINIO.csproj": {
+    "C:\\Users\\Zenkaii\\Desktop\\clinica-DDD\\DOMINIO\\DOMINIO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Alexis\\Desktop\\ClinicaVeterinaria\\DOMINIO\\DOMINIO.csproj",
+        "projectUniqueName": "C:\\Users\\Zenkaii\\Desktop\\clinica-DDD\\DOMINIO\\DOMINIO.csproj",
         "projectName": "DOMINIO",
-        "projectPath": "C:\\Users\\Alexis\\Desktop\\ClinicaVeterinaria\\DOMINIO\\DOMINIO.csproj",
-        "packagesPath": "C:\\Users\\Alexis\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Alexis\\Desktop\\ClinicaVeterinaria\\DOMINIO\\obj\\",
+        "projectPath": "C:\\Users\\Zenkaii\\Desktop\\clinica-DDD\\DOMINIO\\DOMINIO.csproj",
+        "packagesPath": "C:\\Users\\Zenkaii\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Zenkaii\\Desktop\\clinica-DDD\\DOMINIO\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Alexis\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Zenkaii\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
