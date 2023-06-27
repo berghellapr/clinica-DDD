@@ -58,6 +58,7 @@
             Controls.Add(btnNoSQL);
             Controls.Add(btnSQL);
             Name = "Form1";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Clinica Veterinaria";
             ResumeLayout(false);
         }

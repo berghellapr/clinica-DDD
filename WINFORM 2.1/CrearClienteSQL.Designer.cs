@@ -126,6 +126,7 @@
             Controls.Add(txtNombre);
             Controls.Add(label1);
             Name = "CrearClienteSQL";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "CrearClienteSQL";
             ResumeLayout(false);
             PerformLayout();

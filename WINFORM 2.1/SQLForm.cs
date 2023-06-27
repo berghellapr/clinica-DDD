@@ -65,12 +65,12 @@ namespace WINFORM_2._1
         {
             try
             {
-                EliminarCliente eliminar = container.Resolve<EliminarCliente>();  
+                EliminarCliente eliminar = container.Resolve<EliminarCliente>();
                 Guid id = new Guid(gridClientes.CurrentRow.Cells[0].Value.ToString());
                 eliminar.Ejecutar(id);
                 LlenarDataGrid();
             }
-            catch(Exception ex )
+            catch (Exception ex)
             {
                 MessageBox.Show(ex.Message, "Seleccione una fila", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
