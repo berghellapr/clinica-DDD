@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             label1 = new Label();
-            textBox1 = new TextBox();
+            txtNombre = new TextBox();
             txtEmail = new TextBox();
             label2 = new Label();
             txtApellido = new TextBox();
@@ -48,13 +48,13 @@
             label1.TabIndex = 0;
             label1.Text = "Nombre";
             // 
-            // textBox1
+            // txtNombre
             // 
-            textBox1.Font = new Font("Microsoft Sans Serif", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
-            textBox1.Location = new Point(124, 31);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(157, 29);
-            textBox1.TabIndex = 1;
+            txtNombre.Font = new Font("Microsoft Sans Serif", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
+            txtNombre.Location = new Point(124, 31);
+            txtNombre.Name = "txtNombre";
+            txtNombre.Size = new Size(157, 29);
+            txtNombre.TabIndex = 1;
             // 
             // txtEmail
             // 
@@ -110,6 +110,7 @@
             btnGuardar.TabIndex = 7;
             btnGuardar.Text = "Guardar";
             btnGuardar.UseVisualStyleBackColor = true;
+            btnGuardar.Click += btnGuardar_Click;
             // 
             // CrearClienteSQL
             // 
@@ -122,7 +123,7 @@
             Controls.Add(label3);
             Controls.Add(txtEmail);
             Controls.Add(label2);
-            Controls.Add(textBox1);
+            Controls.Add(txtNombre);
             Controls.Add(label1);
             Name = "CrearClienteSQL";
             Text = "CrearClienteSQL";
@@ -133,7 +134,7 @@
         #endregion
 
         private Label label1;
-        private TextBox textBox1;
+        private TextBox txtNombre;
         private TextBox txtEmail;
         private Label label2;
         private TextBox txtApellido;

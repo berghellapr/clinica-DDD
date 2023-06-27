@@ -12,9 +12,19 @@ namespace _03_INFRAESTRUCTURA
     public class ClienteRepositorioSQL : ClienteRepositorio
     {
         String connectionString = "SERVER=DESKTOP-DQTGS54\\SQLEXPRESS;Initial Catalog=ClinicaVeterinaria;Integrated Security=True; Encrypt=False";
+        
         public void EliminarCliente(Guid idCliente)
         {
-            throw new NotImplementedException();
+            using (SqlConnection conexion = new SqlConnection(this.connectionString))
+            {
+                conexion.Open();
+                using (SqlCommand comando = new SqlCommand("DELETE FROM Clientes WHERE id=@id", conexion))
+                {
+                    comando.Parameters.Add("@id", System.Data.SqlDbType.UniqueIdentifier).Value = idCliente;
+                    comando.ExecuteNonQuery();
+                    conexion.Close();
+                }
+            }
         }
 
         public void Grabar(Cliente cliente)
