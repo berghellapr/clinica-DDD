@@ -1,13 +1,13 @@
-﻿using APLICACION.DTO;
-using DOMINIO.Entidades;
-using DOMINIO.Repositorio;
+﻿using _01_APLICACION.DTO;
+using _02_DOMINIO.Entidad;
+using _02_DOMINIO.Repositorio;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace APLICACION
+namespace _01_APLICACION
 {
    public class CrearCliente
     {
@@ -18,9 +18,9 @@ namespace APLICACION
             this.repositorio = repositorio;
         }
 
-        public void ejecutar(ClienteDTO usuario)
+        public void Ejecutar(ClienteDTO cliente)
         {
-            this.repositorio.grabar(new Cliente(usuario.Id(), usuario.Nombre(), usuario.Apellido(), usuario.Email()));
+            this.repositorio.Grabar(new Cliente(cliente.Id(), cliente.Nombre(), cliente.Apellido(), cliente.Email()));
         }
     }
 }

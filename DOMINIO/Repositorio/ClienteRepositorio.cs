@@ -1,16 +1,16 @@
-﻿using DOMINIO.Entidades;
+﻿using _02_DOMINIO.Entidad;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DOMINIO.Repositorio
+namespace _02_DOMINIO.Repositorio
 {
     public interface ClienteRepositorio
     {
-        public List<Cliente> obtenerTodos();
-        public void grabar(Cliente cliente);
+        public List<Cliente> ObtenerTodos();
+        public void Grabar(Cliente cliente);
         public void EliminarCliente(Guid idCliente);
     }
 }

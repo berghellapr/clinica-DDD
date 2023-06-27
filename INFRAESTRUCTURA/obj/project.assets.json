@@ -925,14 +925,14 @@
           "lib/net6.0/ZstdSharp.dll": {}
         }
       },
-      "DOMINIO/1.0.0": {
+      "02-DOMINIO/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "compile": {
-          "bin/placeholder/DOMINIO.dll": {}
+          "bin/placeholder/02-DOMINIO.dll": {}
         },
         "runtime": {
-          "bin/placeholder/DOMINIO.dll": {}
+          "bin/placeholder/02-DOMINIO.dll": {}
         }
       }
     }
@@ -2525,15 +2525,15 @@
         "zstdsharp.port.nuspec"
       ]
     },
-    "DOMINIO/1.0.0": {
+    "02-DOMINIO/1.0.0": {
       "type": "project",
-      "path": "../DOMINIO/DOMINIO.csproj",
-      "msbuildProject": "../DOMINIO/DOMINIO.csproj"
+      "path": "../DOMINIO/02-DOMINIO.csproj",
+      "msbuildProject": "../DOMINIO/02-DOMINIO.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "DOMINIO >= 1.0.0",
+      "02-DOMINIO >= 1.0.0",
       "Microsoft.Data.SqlClient >= 5.1.1",
       "MongoDB.Driver >= 2.19.2",
       "MongoDB.Driver.Core >= 2.19.2"
@@ -2545,9 +2545,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Alexis\\Desktop\\ClinicaVeterinaria\\INFRAESTRUCTURA\\INFRAESTRUCTURA.csproj",
-      "projectName": "INFRAESTRUCTURA",
-      "projectPath": "C:\\Users\\Alexis\\Desktop\\ClinicaVeterinaria\\INFRAESTRUCTURA\\INFRAESTRUCTURA.csproj",
+      "projectUniqueName": "C:\\Users\\Alexis\\Desktop\\ClinicaVeterinaria\\INFRAESTRUCTURA\\03-INFRAESTRUCTURA.csproj",
+      "projectName": "03-INFRAESTRUCTURA",
+      "projectPath": "C:\\Users\\Alexis\\Desktop\\ClinicaVeterinaria\\INFRAESTRUCTURA\\03-INFRAESTRUCTURA.csproj",
       "packagesPath": "C:\\Users\\Alexis\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Alexis\\Desktop\\ClinicaVeterinaria\\INFRAESTRUCTURA\\obj\\",
       "projectStyle": "PackageReference",
@@ -2566,8 +2566,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Alexis\\Desktop\\ClinicaVeterinaria\\DOMINIO\\DOMINIO.csproj": {
-              "projectPath": "C:\\Users\\Alexis\\Desktop\\ClinicaVeterinaria\\DOMINIO\\DOMINIO.csproj"
+            "C:\\Users\\Alexis\\Desktop\\ClinicaVeterinaria\\DOMINIO\\02-DOMINIO.csproj": {
+              "projectPath": "C:\\Users\\Alexis\\Desktop\\ClinicaVeterinaria\\DOMINIO\\02-DOMINIO.csproj"
             }
           }
         }

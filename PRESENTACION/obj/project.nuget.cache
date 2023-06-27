@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "FGIh/y1FGMzRgouc9CxgzMVB/K2kTVh+Xo5Bff6i+4yrIF0fDHUmp9oYA+NP1WMWsxZUX6EJi6i5ftxcLMB8VQ==",
+  "dgSpecHash": "7t+rEpN6xs9tYnuHEh08FWUhRgh2ypf1fk9sVNSK4gFuVnbhy+7ixt1o/l9U6Ik2JNzDxWmOIB+bC6U4YE7izw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Alexis\\Desktop\\ClinicaVeterinaria\\PRESENTACION\\PRESENTACION.csproj",
+  "projectFilePath": "C:\\Users\\Alexis\\Desktop\\ClinicaVeterinaria\\PRESENTACION\\00-PRESENTACION.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Alexis\\.nuget\\packages\\autofac\\7.0.1\\autofac.7.0.1.nupkg.sha512",
     "C:\\Users\\Alexis\\.nuget\\packages\\awssdk.core\\3.7.100.14\\awssdk.core.3.7.100.14.nupkg.sha512",

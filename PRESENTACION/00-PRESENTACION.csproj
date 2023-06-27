@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <OutputType>Exe</OutputType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Autofac" Version="7.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\APLICACION\01-APLICACION.csproj" />
+    <ProjectReference Include="..\DOMINIO\02-DOMINIO.csproj" />
+    <ProjectReference Include="..\INFRAESTRUCTURA\03-INFRAESTRUCTURA.csproj" />
+  </ItemGroup>
+
+</Project>

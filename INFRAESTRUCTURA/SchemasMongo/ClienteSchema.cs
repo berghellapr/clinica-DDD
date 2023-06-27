@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using MongoDB.Bson.Serialization.Attributes;
 
-namespace INFRAESTRUCTURA.SchemasMongo
+namespace _03_INFRAESTRUCTURA.SchemasMongo
 {
    public class ClienteSchema
     { 

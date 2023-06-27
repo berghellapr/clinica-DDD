@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "52iIFNeLa4rjX6mqsPS/077ceW9hKpINwEz++NfMBQaKa/aQcPAKHVBYaMvHjhzkrtL3I0x8zc5Cs7LWoXeqqg==",
+  "dgSpecHash": "hc+Jd5sClWx7g1W+EKd1geDNJe58heL84zjCQUgZxpEmb6XM9vhjhVbAV8iJ3aWTHLUCURD6QQGE/gHHwZ/qug==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Alexis\\Desktop\\ClinicaVeterinaria\\INFRAESTRUCTURA\\INFRAESTRUCTURA.csproj",
+  "projectFilePath": "C:\\Users\\Alexis\\Desktop\\ClinicaVeterinaria\\INFRAESTRUCTURA\\03-INFRAESTRUCTURA.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Alexis\\.nuget\\packages\\awssdk.core\\3.7.100.14\\awssdk.core.3.7.100.14.nupkg.sha512",
     "C:\\Users\\Alexis\\.nuget\\packages\\awssdk.securitytoken\\3.7.100.14\\awssdk.securitytoken.3.7.100.14.nupkg.sha512",

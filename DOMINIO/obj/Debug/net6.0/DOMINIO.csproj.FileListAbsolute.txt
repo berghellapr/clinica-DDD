@@ -10,3 +10,15 @@ C:\Users\Alexis\Desktop\ClinicaVeterinaria\DOMINIO\obj\Debug\net6.0\DOMINIO.dll
 C:\Users\Alexis\Desktop\ClinicaVeterinaria\DOMINIO\obj\Debug\net6.0\refint\DOMINIO.dll
 C:\Users\Alexis\Desktop\ClinicaVeterinaria\DOMINIO\obj\Debug\net6.0\DOMINIO.pdb
 C:\Users\Alexis\Desktop\ClinicaVeterinaria\DOMINIO\obj\Debug\net6.0\ref\DOMINIO.dll
+C:\Users\Zenkaii\Desktop\clinica-DDD\DOMINIO\bin\Debug\net6.0\DOMINIO.deps.json
+C:\Users\Zenkaii\Desktop\clinica-DDD\DOMINIO\bin\Debug\net6.0\DOMINIO.dll
+C:\Users\Zenkaii\Desktop\clinica-DDD\DOMINIO\bin\Debug\net6.0\DOMINIO.pdb
+C:\Users\Zenkaii\Desktop\clinica-DDD\DOMINIO\obj\Debug\net6.0\DOMINIO.csproj.AssemblyReference.cache
+C:\Users\Zenkaii\Desktop\clinica-DDD\DOMINIO\obj\Debug\net6.0\DOMINIO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Zenkaii\Desktop\clinica-DDD\DOMINIO\obj\Debug\net6.0\DOMINIO.AssemblyInfoInputs.cache
+C:\Users\Zenkaii\Desktop\clinica-DDD\DOMINIO\obj\Debug\net6.0\DOMINIO.AssemblyInfo.cs
+C:\Users\Zenkaii\Desktop\clinica-DDD\DOMINIO\obj\Debug\net6.0\DOMINIO.csproj.CoreCompileInputs.cache
+C:\Users\Zenkaii\Desktop\clinica-DDD\DOMINIO\obj\Debug\net6.0\DOMINIO.dll
+C:\Users\Zenkaii\Desktop\clinica-DDD\DOMINIO\obj\Debug\net6.0\refint\DOMINIO.dll
+C:\Users\Zenkaii\Desktop\clinica-DDD\DOMINIO\obj\Debug\net6.0\DOMINIO.pdb
+C:\Users\Zenkaii\Desktop\clinica-DDD\DOMINIO\obj\Debug\net6.0\ref\DOMINIO.dll

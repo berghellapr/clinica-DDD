@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Alexis\\Desktop\\ClinicaVeterinaria\\PRESENTACION\\PRESENTACION.csproj": {}
+    "C:\\Users\\Zenkaii\\Desktop\\clinica-DDD\\PRESENTACION\\PRESENTACION.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Alexis\\Desktop\\ClinicaVeterinaria\\APLICACION\\APLICACION.csproj": {
+    "C:\\Users\\Zenkaii\\Desktop\\clinica-DDD\\APLICACION\\APLICACION.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Alexis\\Desktop\\ClinicaVeterinaria\\APLICACION\\APLICACION.csproj",
+        "projectUniqueName": "C:\\Users\\Zenkaii\\Desktop\\clinica-DDD\\APLICACION\\APLICACION.csproj",
         "projectName": "APLICACION",
-        "projectPath": "C:\\Users\\Alexis\\Desktop\\ClinicaVeterinaria\\APLICACION\\APLICACION.csproj",
-        "packagesPath": "C:\\Users\\Alexis\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Alexis\\Desktop\\ClinicaVeterinaria\\APLICACION\\obj\\",
+        "projectPath": "C:\\Users\\Zenkaii\\Desktop\\clinica-DDD\\APLICACION\\APLICACION.csproj",
+        "packagesPath": "C:\\Users\\Zenkaii\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Zenkaii\\Desktop\\clinica-DDD\\APLICACION\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Alexis\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Zenkaii\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,8 +28,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Alexis\\Desktop\\ClinicaVeterinaria\\DOMINIO\\DOMINIO.csproj": {
-                "projectPath": "C:\\Users\\Alexis\\Desktop\\ClinicaVeterinaria\\DOMINIO\\DOMINIO.csproj"
+              "C:\\Users\\Zenkaii\\Desktop\\clinica-DDD\\DOMINIO\\DOMINIO.csproj": {
+                "projectPath": "C:\\Users\\Zenkaii\\Desktop\\clinica-DDD\\DOMINIO\\DOMINIO.csproj"
               }
             }
           }
@@ -63,17 +63,17 @@
         }
       }
     },
-    "C:\\Users\\Alexis\\Desktop\\ClinicaVeterinaria\\DOMINIO\\DOMINIO.csproj": {
+    "C:\\Users\\Zenkaii\\Desktop\\clinica-DDD\\DOMINIO\\DOMINIO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Alexis\\Desktop\\ClinicaVeterinaria\\DOMINIO\\DOMINIO.csproj",
+        "projectUniqueName": "C:\\Users\\Zenkaii\\Desktop\\clinica-DDD\\DOMINIO\\DOMINIO.csproj",
         "projectName": "DOMINIO",
-        "projectPath": "C:\\Users\\Alexis\\Desktop\\ClinicaVeterinaria\\DOMINIO\\DOMINIO.csproj",
-        "packagesPath": "C:\\Users\\Alexis\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Alexis\\Desktop\\ClinicaVeterinaria\\DOMINIO\\obj\\",
+        "projectPath": "C:\\Users\\Zenkaii\\Desktop\\clinica-DDD\\DOMINIO\\DOMINIO.csproj",
+        "packagesPath": "C:\\Users\\Zenkaii\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Zenkaii\\Desktop\\clinica-DDD\\DOMINIO\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Alexis\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Zenkaii\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -118,17 +118,17 @@
         }
       }
     },
-    "C:\\Users\\Alexis\\Desktop\\ClinicaVeterinaria\\INFRAESTRUCTURA\\INFRAESTRUCTURA.csproj": {
+    "C:\\Users\\Zenkaii\\Desktop\\clinica-DDD\\INFRAESTRUCTURA\\INFRAESTRUCTURA.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Alexis\\Desktop\\ClinicaVeterinaria\\INFRAESTRUCTURA\\INFRAESTRUCTURA.csproj",
+        "projectUniqueName": "C:\\Users\\Zenkaii\\Desktop\\clinica-DDD\\INFRAESTRUCTURA\\INFRAESTRUCTURA.csproj",
         "projectName": "INFRAESTRUCTURA",
-        "projectPath": "C:\\Users\\Alexis\\Desktop\\ClinicaVeterinaria\\INFRAESTRUCTURA\\INFRAESTRUCTURA.csproj",
-        "packagesPath": "C:\\Users\\Alexis\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Alexis\\Desktop\\ClinicaVeterinaria\\INFRAESTRUCTURA\\obj\\",
+        "projectPath": "C:\\Users\\Zenkaii\\Desktop\\clinica-DDD\\INFRAESTRUCTURA\\INFRAESTRUCTURA.csproj",
+        "packagesPath": "C:\\Users\\Zenkaii\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Zenkaii\\Desktop\\clinica-DDD\\INFRAESTRUCTURA\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Alexis\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Zenkaii\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -142,8 +142,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Alexis\\Desktop\\ClinicaVeterinaria\\DOMINIO\\DOMINIO.csproj": {
-                "projectPath": "C:\\Users\\Alexis\\Desktop\\ClinicaVeterinaria\\DOMINIO\\DOMINIO.csproj"
+              "C:\\Users\\Zenkaii\\Desktop\\clinica-DDD\\DOMINIO\\DOMINIO.csproj": {
+                "projectPath": "C:\\Users\\Zenkaii\\Desktop\\clinica-DDD\\DOMINIO\\DOMINIO.csproj"
               }
             }
           }
@@ -191,17 +191,17 @@
         }
       }
     },
-    "C:\\Users\\Alexis\\Desktop\\ClinicaVeterinaria\\PRESENTACION\\PRESENTACION.csproj": {
+    "C:\\Users\\Zenkaii\\Desktop\\clinica-DDD\\PRESENTACION\\PRESENTACION.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Alexis\\Desktop\\ClinicaVeterinaria\\PRESENTACION\\PRESENTACION.csproj",
+        "projectUniqueName": "C:\\Users\\Zenkaii\\Desktop\\clinica-DDD\\PRESENTACION\\PRESENTACION.csproj",
         "projectName": "PRESENTACION",
-        "projectPath": "C:\\Users\\Alexis\\Desktop\\ClinicaVeterinaria\\PRESENTACION\\PRESENTACION.csproj",
-        "packagesPath": "C:\\Users\\Alexis\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Alexis\\Desktop\\ClinicaVeterinaria\\PRESENTACION\\obj\\",
+        "projectPath": "C:\\Users\\Zenkaii\\Desktop\\clinica-DDD\\PRESENTACION\\PRESENTACION.csproj",
+        "packagesPath": "C:\\Users\\Zenkaii\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Zenkaii\\Desktop\\clinica-DDD\\PRESENTACION\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Alexis\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Zenkaii\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -215,14 +215,14 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Alexis\\Desktop\\ClinicaVeterinaria\\APLICACION\\APLICACION.csproj": {
-                "projectPath": "C:\\Users\\Alexis\\Desktop\\ClinicaVeterinaria\\APLICACION\\APLICACION.csproj"
+              "C:\\Users\\Zenkaii\\Desktop\\clinica-DDD\\APLICACION\\APLICACION.csproj": {
+                "projectPath": "C:\\Users\\Zenkaii\\Desktop\\clinica-DDD\\APLICACION\\APLICACION.csproj"
               },
-              "C:\\Users\\Alexis\\Desktop\\ClinicaVeterinaria\\DOMINIO\\DOMINIO.csproj": {
-                "projectPath": "C:\\Users\\Alexis\\Desktop\\ClinicaVeterinaria\\DOMINIO\\DOMINIO.csproj"
+              "C:\\Users\\Zenkaii\\Desktop\\clinica-DDD\\DOMINIO\\DOMINIO.csproj": {
+                "projectPath": "C:\\Users\\Zenkaii\\Desktop\\clinica-DDD\\DOMINIO\\DOMINIO.csproj"
               },
-              "C:\\Users\\Alexis\\Desktop\\ClinicaVeterinaria\\INFRAESTRUCTURA\\INFRAESTRUCTURA.csproj": {
-                "projectPath": "C:\\Users\\Alexis\\Desktop\\ClinicaVeterinaria\\INFRAESTRUCTURA\\INFRAESTRUCTURA.csproj"
+              "C:\\Users\\Zenkaii\\Desktop\\clinica-DDD\\INFRAESTRUCTURA\\INFRAESTRUCTURA.csproj": {
+                "projectPath": "C:\\Users\\Zenkaii\\Desktop\\clinica-DDD\\INFRAESTRUCTURA\\INFRAESTRUCTURA.csproj"
               }
             }
           }
