@@ -30,12 +30,21 @@ namespace WINFORM_2._1
 
         private void btnGuardar_Click(object sender, EventArgs e)
         {
-            CrearCliente crear = container.Resolve<CrearCliente>();
-            String nombre = txtNombre.Text;
-            String apellido = txtApellido.Text;
-            String email = txtEmail.Text;
-            crear.Ejecutar(new ClienteDTO(Guid.NewGuid(), nombre, apellido, email));
-            this.Close();
+            try
+            {
+                CrearCliente crear = container.Resolve<CrearCliente>();
+                String nombre = txtNombre.Text;
+                String apellido = txtApellido.Text;
+                String email = txtEmail.Text;
+                crear.Ejecutar(new ClienteDTO(Guid.NewGuid(), nombre, apellido, email));
+                this.Close();
+            }
+            catch(Exception ex)
+            {
+                MessageBox.Show(ex.Message, "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Error);
+
+            }
+
         }
 
 
