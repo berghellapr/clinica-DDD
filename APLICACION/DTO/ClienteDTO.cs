@@ -1,4 +1,5 @@
-﻿using System;
+﻿using _02_DOMINIO.ValueObject;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -38,13 +39,16 @@ namespace _01_APLICACION.DTO
             return this.email;
         }
 
-        public String Presentacion()
+        //public String Presentacion()
+        //{
+        //    return "Nombre: " + this.nombre +
+        //           "\nApellido: " + this.apellido +
+        //           "\nEmail: " + this.email +
+        //           "\n-------------------------------\n";
+        //}
+        public void CambiarEmail(String nuevoEmail)
         {
-            return "Nombre: " + this.nombre +
-                   "\nApellido: " + this.apellido +
-                   "\nEmail: " + this.email +
-                   "\n-------------------------------\n";
+            this.email = nuevoEmail;
         }
-
     }
 }
