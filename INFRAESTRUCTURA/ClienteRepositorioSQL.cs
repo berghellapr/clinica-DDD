@@ -11,7 +11,7 @@ namespace _03_INFRAESTRUCTURA
 {
     public class ClienteRepositorioSQL : ClienteRepositorio
     {
-        String connectionString = "SERVER=DESKTOP-DQTGS54\\SQLEXPRESS;Initial Catalog=ClinicaVeterinaria;Integrated Security=True; Encrypt=False";
+        String connectionString = "DESKTOP-CMEJDLF\\SQLEXPRESS01;Initial Catalog=ClinicaVeterinaria;Integrated Security=True; Encrypt=False";
         //String connectionString = "Data Source=SYS\\VET;Initial Catalog=ClinicaVeterinaria;Integrated Security=True; Encrypt=False";
         
         public void ActualizarEmail(Guid id, String nuevoEmail)
