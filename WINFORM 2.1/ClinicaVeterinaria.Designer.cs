@@ -56,6 +56,7 @@
             panel2 = new Panel();
             label2 = new Label();
             label3 = new Label();
+            label4 = new Label();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             panel1.SuspendLayout();
             panel2.SuspendLayout();
@@ -98,7 +99,7 @@
             NombreTextBox.Location = new Point(312, 108);
             NombreTextBox.Margin = new Padding(3, 2, 3, 2);
             NombreTextBox.Name = "NombreTextBox";
-            NombreTextBox.Size = new Size(476, 29);
+            NombreTextBox.Size = new Size(476, 39);
             NombreTextBox.TabIndex = 3;
             // 
             // ApellidoTextBox
@@ -107,7 +108,7 @@
             ApellidoTextBox.Location = new Point(312, 151);
             ApellidoTextBox.Margin = new Padding(3, 2, 3, 2);
             ApellidoTextBox.Name = "ApellidoTextBox";
-            ApellidoTextBox.Size = new Size(476, 29);
+            ApellidoTextBox.Size = new Size(476, 39);
             ApellidoTextBox.TabIndex = 4;
             // 
             // EmailTextBox
@@ -116,7 +117,7 @@
             EmailTextBox.Location = new Point(312, 194);
             EmailTextBox.Margin = new Padding(3, 2, 3, 2);
             EmailTextBox.Name = "EmailTextBox";
-            EmailTextBox.Size = new Size(476, 29);
+            EmailTextBox.Size = new Size(476, 39);
             EmailTextBox.TabIndex = 5;
             // 
             // AgregarClienteBtn
@@ -149,14 +150,14 @@
             dataGridView1.BackgroundColor = Color.SeaShell;
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dataGridView1.Columns.AddRange(new DataGridViewColumn[] { Column1, Column2, Column3, Column4 });
-            dataGridView1.Location = new Point(808, 70);
+            dataGridView1.Location = new Point(808, 65);
             dataGridView1.Margin = new Padding(3, 2, 3, 2);
             dataGridView1.Name = "dataGridView1";
             dataGridView1.ReadOnly = true;
             dataGridView1.RowHeadersWidth = 51;
             dataGridView1.RowTemplate.Height = 29;
             dataGridView1.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
-            dataGridView1.Size = new Size(583, 401);
+            dataGridView1.Size = new Size(583, 406);
             dataGridView1.TabIndex = 8;
             dataGridView1.CellClick += dataGridView1_CellClick;
             // 
@@ -207,10 +208,10 @@
             // IdTextBox
             // 
             IdTextBox.Font = new Font("Dubai", 14F, FontStyle.Regular, GraphicsUnit.Point);
-            IdTextBox.Location = new Point(312, 70);
+            IdTextBox.Location = new Point(312, 65);
             IdTextBox.Margin = new Padding(3, 2, 3, 2);
             IdTextBox.Name = "IdTextBox";
-            IdTextBox.Size = new Size(476, 29);
+            IdTextBox.Size = new Size(476, 39);
             IdTextBox.TabIndex = 13;
             // 
             // IdLabel
@@ -283,7 +284,7 @@
             EntityFrameworkBtn.Padding = new Padding(10, 0, 0, 0);
             EntityFrameworkBtn.Size = new Size(187, 44);
             EntityFrameworkBtn.TabIndex = 25;
-            EntityFrameworkBtn.Text = "> Entity Framework";
+            EntityFrameworkBtn.Text = "> Entity \nFramework";
             EntityFrameworkBtn.TextAlign = ContentAlignment.MiddleLeft;
             EntityFrameworkBtn.UseVisualStyleBackColor = false;
             EntityFrameworkBtn.Click += EntityFrameworkBtn_Click_1;
@@ -370,11 +371,22 @@
             label3.TabIndex = 22;
             label3.Text = "Vista";
             // 
+            // label4
+            // 
+            label4.AutoSize = true;
+            label4.Font = new Font("Candara", 8F, FontStyle.Regular, GraphicsUnit.Point);
+            label4.Location = new Point(204, 458);
+            label4.Name = "label4";
+            label4.Size = new Size(551, 13);
+            label4.TabIndex = 23;
+            label4.Text = "* Para actualizar email, por favor, indique el Id (como se muestra en la tabla) y la nueva dirección de correo electrónico.";
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1403, 541);
+            Controls.Add(label4);
             Controls.Add(label3);
             Controls.Add(label2);
             Controls.Add(panel1);
@@ -433,5 +445,6 @@
         private Button SQLServerBtn;
         private Label label2;
         private Label label3;
+        private Label label4;
     }
 }
