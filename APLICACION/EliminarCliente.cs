@@ -15,9 +15,9 @@ namespace _01_APLICACION
             this.repositorio = repositorio;
         }
 
-        public void Ejecutar(Guid idCliente)
+        public void Ejecutar(Guid id)
         {
-            this.repositorio.EliminarCliente(idCliente);
+            this.repositorio.EliminarCliente(id);
         }
     }
 }

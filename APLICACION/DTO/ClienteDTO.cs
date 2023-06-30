@@ -39,13 +39,13 @@ namespace _01_APLICACION.DTO
             return this.email;
         }
 
-        //public String Presentacion()
-        //{
-        //    return "Nombre: " + this.nombre +
-        //           "\nApellido: " + this.apellido +
-        //           "\nEmail: " + this.email +
-        //           "\n-------------------------------\n";
-        //}
+        public String Presentacion()
+        {
+            return "Nombre: " + this.nombre +
+                   "\nApellido: " + this.apellido +
+                   "\nEmail: " + this.email +
+                   "\n-----------------------------------------\n";
+        }
         public void CambiarEmail(String nuevoEmail)
         {
             this.email = nuevoEmail;

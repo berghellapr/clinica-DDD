@@ -140,3 +140,15 @@ C:\Users\Alexis\Desktop\ClinicaVeterinaria\PRESENTACION\obj\Debug\net6.0\refint\
 C:\Users\Alexis\Desktop\ClinicaVeterinaria\PRESENTACION\obj\Debug\net6.0\00-PRESENTACION.pdb
 C:\Users\Alexis\Desktop\ClinicaVeterinaria\PRESENTACION\obj\Debug\net6.0\00-PRESENTACION.genruntimeconfig.cache
 C:\Users\Alexis\Desktop\ClinicaVeterinaria\PRESENTACION\obj\Debug\net6.0\ref\00-PRESENTACION.dll
+C:\Users\Zenkaii\Desktop\clinica-DDD\PRESENTACION\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Zenkaii\Desktop\clinica-DDD\PRESENTACION\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Zenkaii\Desktop\clinica-DDD\PRESENTACION\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Zenkaii\Desktop\clinica-DDD\PRESENTACION\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Zenkaii\Desktop\clinica-DDD\PRESENTACION\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\Zenkaii\Desktop\clinica-DDD\PRESENTACION\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Zenkaii\Desktop\clinica-DDD\PRESENTACION\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Zenkaii\Desktop\clinica-DDD\PRESENTACION\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Zenkaii\Desktop\clinica-DDD\PRESENTACION\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Zenkaii\Desktop\clinica-DDD\PRESENTACION\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+C:\Users\Zenkaii\Desktop\clinica-DDD\PRESENTACION\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+C:\Users\Zenkaii\Desktop\clinica-DDD\PRESENTACION\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll

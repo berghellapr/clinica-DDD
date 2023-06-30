@@ -11,7 +11,8 @@ namespace _02_DOMINIO.Repositorio
     {
         public List<Cliente> ObtenerTodos();
         public void Grabar(Cliente cliente);
-        public void EliminarCliente(Guid idCliente);
+        public void EliminarCliente(Guid id);
         public void ActualizarEmail(Guid id, String nuevoEmail);
+        public Cliente ObtenerClientePorId(Guid id);
     }
 }
