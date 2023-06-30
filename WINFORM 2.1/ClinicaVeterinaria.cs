@@ -123,7 +123,7 @@ public partial class Form1 : Form
     private void EntityFrameworkBtn_Click_1(object sender, EventArgs e)
     {
         container = _00_PRESENTACION_WINFORM.IoC_Container.Container.GetEntityFrameworkContainer();
-        dbLabel.Text = "Entity Framework";
+        dbLabel.Text = "Entity\nFramework";
         VaciarTextBoxes();
         CompletarDataGrid();
     }
