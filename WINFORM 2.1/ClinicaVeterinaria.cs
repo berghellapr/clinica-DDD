@@ -59,11 +59,6 @@ public partial class Form1 : Form
         }
     }
 
-    private void BuscarBtn_Click(object sender, EventArgs e)
-    {
-        this.CompletarDataGrid();
-    }
-
     private void CompletarDataGrid()
     {
         try

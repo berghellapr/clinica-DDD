@@ -4,16 +4,10 @@ public class Contexto : DbContext
 {
     public DbSet<ClienteEntity> Clientes { get; set; }
 
-    public string DbPath { get; }
-
-    public Contexto()
+    protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
-        var folder = Environment.SpecialFolder.LocalApplicationData;
-        var path = Environment.GetFolderPath(folder);
-        DbPath = System.IO.Path.Join(path, "ClinicaVeterinaria.db");
+        optionsBuilder.UseSqlServer("Data Source=DESKTOP-CMEJDLF\\SQLEXPRESS01;Initial Catalog=ClinicaVeterinaria;Integrated Security=True; Encrypt=False");
     }
-
-    protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder) => optionsBuilder.UseSqlServer($"Data Source={DbPath}");
 }
 
 public class ClienteEntity

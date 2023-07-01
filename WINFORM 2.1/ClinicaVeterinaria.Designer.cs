@@ -193,18 +193,6 @@
             Column4.ReadOnly = true;
             Column4.Width = 125;
             // 
-            // BuscarBtn
-            // 
-            BuscarBtn.BackColor = Color.Silver;
-            BuscarBtn.Location = new Point(808, 492);
-            BuscarBtn.Margin = new Padding(3, 2, 3, 2);
-            BuscarBtn.Name = "BuscarBtn";
-            BuscarBtn.Size = new Size(119, 28);
-            BuscarBtn.TabIndex = 9;
-            BuscarBtn.Text = "Refresh";
-            BuscarBtn.UseVisualStyleBackColor = false;
-            BuscarBtn.Click += BuscarBtn_Click;
-            // 
             // IdTextBox
             // 
             IdTextBox.Font = new Font("Dubai", 14F, FontStyle.Regular, GraphicsUnit.Point);
