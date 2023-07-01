@@ -138,6 +138,8 @@ public partial class Form1 : Form
         VaciarTextBoxes();
         CompletarDataGrid();
     }
+
+    #region validaciones
     private void validarNombre(string nombre)
     {
         if (nombre.Length < 4)
@@ -196,6 +198,7 @@ public partial class Form1 : Form
             throw new ArgumentException("El Id no es válido.");
         }
     }
+    #endregion
 
     private void VaciarTextBoxes()
     {

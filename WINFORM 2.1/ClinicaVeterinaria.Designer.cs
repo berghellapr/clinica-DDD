@@ -152,6 +152,7 @@
             dataGridView1.Columns.AddRange(new DataGridViewColumn[] { Column1, Column2, Column3, Column4 });
             dataGridView1.Location = new Point(808, 65);
             dataGridView1.Margin = new Padding(3, 2, 3, 2);
+            dataGridView1.MultiSelect = false;
             dataGridView1.Name = "dataGridView1";
             dataGridView1.ReadOnly = true;
             dataGridView1.RowHeadersWidth = 51;
@@ -192,6 +193,13 @@
             Column4.Name = "Column4";
             Column4.ReadOnly = true;
             Column4.Width = 125;
+            // 
+            // BuscarBtn
+            // 
+            BuscarBtn.Location = new Point(0, 0);
+            BuscarBtn.Name = "BuscarBtn";
+            BuscarBtn.Size = new Size(75, 23);
+            BuscarBtn.TabIndex = 24;
             // 
             // IdTextBox
             // 
